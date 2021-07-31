@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0;padding: 0}
+#wraper{font-size: 16px;color: black;}
+h1{font-family: 'Old Standard TT', serif;font-size: 30px;}
+h4{font-family: 'Old Standard TT', serif; font-size: 20px;font-weight: 400; color: #151515}
+p{font-family: 'Work Sans', sans-serif;font-weight: 300;line-height: 1.5}
+						/*header*/
+.header{background-color:rgba(57,57,57,1.00);height: 100px;overflow: hidden;position: fixed;z-index: 1;width: 100%;}
+/*logo*/
+.logo{ align-items: center;}
+.logo img{width: 78%;}
+
+/*menu*/
+.menu{height: 100%;}
+.menu ul{list-style: none;}
+.menu ul li{padding: 30px 10px;box-sizing: border-box;}
+.menu ul li a{text-decoration: none;color: white;}
+.menu ul li a:hover{color: rgba(86,234,125,1.00);border-bottom: 5px solid rgba(86,234,125,1.00);padding-bottom: 15px;}
+/*icon*/
+.icon{height: 100%; align-items: center;color: white;display: flex;justify-content: center;padding: 30px 0; box-sizing: border-box;}
+				/*main*/
+.main{}
+/*----------------sec1*/
+.sec1{height: 100vh;background: url("../images/bg-image-2.jpg");background: cover;background-repeat: no-repeat;}
+.sec1-box{text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%)}
+.sec1-box h1{font-size: 54px;color: white;padding-bottom: 30px;}
+.sec1-box p{font-size: 18px;color: white;padding-bottom: 60px;}
+.sec1-box form{}
+.sec1-box input{margin: 0 10px;border-radius: 8px;outline: none;border: none}
+.sec1-box select{margin: 0 10px;border-radius: 8px;outline: none;border: none}
+.sec1-box button{margin: 20px 10px;border-radius: 8px;outline: none;border: none;background-color: #C19B76;color: white;cursor: pointer;font-family: 'Work Sans', sans-serif;font-weight: 300;letter-spacing: 2px;color: white;text-transform: uppercase;}
+.sec1-box button:hover{background-color: #535252;animation: bounce 0.5s 0s linear forwards;}
+/*-------------------sec2*/
+.sec2{background-color: lightgrey;}
+.sec2 h1{font-family: 'Old Standard TT', serif;font-size: 30px;font-weight: 700;padding-bottom: 20px;}
+.sec2 p{font-family: 'Work Sans', sans-serif;font-weight: 300;line-height: 1.5}
+.sec2 img{padding: 15px 40px 15px 0;}
+.boot{align-items: center;padding: 25px 10px; box-sizing: border-box;text-align: left;}
+/*-------------------sec3*/
+.sec3{font-size: 18px;height: 100vh;padding: 30px 0;}
+.sec3 h1{font-family: 'Old Standard TT', serif;font-size: 30px;font-weight: 700;padding: 30px;}
+.sec3 img{margin: 0 0 15px 0;}
+.sec3 a{text-decoration: none;color: #c19b76;margin-bottom: 30px;font-weight: 400;font-family: 'Work Sans', sans-serif;margin: 50px 0}
+.sec3 p{color: rgba(22,22,22,0.70);font-family: 'Work Sans', sans-serif;margin: 15px 0;}
+.sec3-btn{margin-top: 30px;}
+.sec3-btn button{background-color: #c19b76;text-transform: uppercase;outline: none;border: none;border-radius: 10px;padding: 14px 55px; cursor: pointer;font-family: 'Work Sans', sans-serif;font-weight: 300;letter-spacing: 2px;color: white;}
+.sec3-btn button:hover{background-color: #535252;animation: bounce 0.5s 0s linear forwards;}
+/*-------------------sec4*/
+.sec4{background-color: lightgrey;padding: 30px 0;}
+.sec4 h1{font-family: 'Old Standard TT', serif;font-size: 30px;font-weight: 700;padding: 30px;}
+/*-------------------sec5 dich vu*/
+.sec5{;height: 400px;padding: 30px 0;}
+.sec5 h1{font-family: 'Old Standard TT', serif;font-size: 30px;font-weight: 700;padding: 30px;}
+.sec5 h4{padding: 20px 0;}
+.sec5 .i-c{font-size: 15px;}
+/*-------------------sec6 thu gian*/
+.sec6{height: 456px; background: url("../images/call-to-action-1-1920x456.jpg"); background: cover;background-repeat: no-repeat;background-position: center;color: white;position: relative}
+.s6-box{width: 60%;text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%)}
+.sec6 button{padding: 13px 35px;background-color: #C19B76;color: white;border: none;border-radius: 10px;letter-spacing: 1.6px;text-transform: uppercase;font-weight: 300;}
+.sec6 button:hover{background-color: #535252;animation: bounce 0.5s 0s linear forwards;}
+.sec6 h1{padding: 30px;}
+.sec6 p{padding-bottom:  30px;}
+/*-------------------sec7 tin moi nhat*/
+.sec7{height: 100vh;padding: 30px 0;}
+.sec7 h1{padding: 30px;}
+.sec7 a{text-decoration: none;color: #C19B76;font-size: 18px;text-transform: capitalize;}
+.sec7 img{margin-bottom: 20px;}
+.sec7 ul{list-style: none;padding: 20px 0;margin-left: -15px;font-size: 14px;font-family: 'Work Sans', sans-serif;font-weight: 300}
+.sec7 ul li{border-right: solid 2px rgba(36,36,36,0.32);padding: 0 15px;}
+.sec7 a:hover{color:rgba(57,57,57,1.00)}
+.s7-ani-trai{opacity: 0; animation: fadeInLeft 2s 1s linear forwards}
+.s7-ani-phai{opacity: 0;animation: fadeInLeft 2s 1.5s linear forwards}
+/*-----------------------footer*/
+.footer{height: 400px;background-color:rgba(57,57,57,1.00);color: white;}
+.footer ul{list-style: none;margin-left: -10px}
+.footer ul li{padding: 10px 0}
+.footer a{text-decoration: none;color: #D3D5DB;font-size: 16px;font-family: 'Work Sans', sans-serif;font-weight: 300;letter-spacing: 0.1rem}
